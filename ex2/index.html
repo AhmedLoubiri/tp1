@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Word</title>
+    <link rel="stylesheet" href="miniword.css">
+</head>
+<body>
+    <p id="editor">Test</p>
+    
+    <label>Couleur : <input type="color" id="couleur"></label>
+    <label>Taille : <input type="number" id="fontSize" min="10" max="100" value="20"></label>
+    <label>Police :
+        <select id="fontFamily">
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Garamond</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+    </label>
+    <script src="miniword.js"></script>
+</body>
+</html>

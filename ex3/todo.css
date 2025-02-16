@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+#todoList {
+    padding: 10px;
+    gap: 15px;
+}
+#name, 
+#content {
+    width: 250px;  
+    height: 30px;  
+    font-size: 18px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.todo-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.todo-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-end;
+    position: fixed;  
+    top: 100px;     
+    right: 100px;      
+    gap: 20px;        
+    z-index: 10;      
+}
+
+.added-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.close {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close img {
+    margin-top: 0;
+    margin-left: 10px;
+}
+
